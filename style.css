@@ -222,8 +222,8 @@ ul >li{
 }
 .servicii >P{
     text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 10px;
     font-size: 1.3rem;
     color: rgb(30, 1, 80);
@@ -238,7 +238,8 @@ ul >li{
     border: 2px solid black;
     box-shadow: 3px 3px 4px black;
     padding: 10px;
-    color: azure;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
     width: auto;
     font-size: 1.8rem;
     text-shadow: 1px 1px 1px black;
@@ -263,7 +264,7 @@ ul >li{
     gap: 20px;
     min-width: 380px;
     padding: 1px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 @media(max-width:1000px){
     .pagini{
@@ -311,8 +312,8 @@ ul >li{
     padding-top: 5px;
     min-width: 300px;
     min-height: 300px;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 380px;
+    max-height: 380px;
     background-position: center;
     background-size: cover;
     box-shadow: 3px 3px 6px black;
@@ -362,15 +363,25 @@ h5{
     text-shadow: 2px 2px 2px black;
 }
 .content1{
-    padding: 20px;
-    text-align: justify;
+    padding: 5px;
     font-size: 1.2rem;
 }
+.content1 >ul{
+    margin-left: 0px;
+}
+.formular-contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+fieldset{
+    padding: 5px;
+}
+
 form ul{
     font-size: 1.1rem;
     list-style:none;
     padding: 5px;
-    min-width: 380px;
+    min-width: 390px;
 }
 form{
     width: fit-content;
@@ -378,7 +389,7 @@ form{
 form li{
     margin: 5px;
     display: flex;
-    max-width: 370px;
+    max-width: 380px;
     justify-content: space-between;
 }
 input{
@@ -396,9 +407,6 @@ fieldset button{
     border-radius: 4px;
     border: 2px solid black;
     background-color: aquamarine;
-}
-.formular-contact{
-    display: flex;
 }
 .contact{
     margin-left: 30px;
