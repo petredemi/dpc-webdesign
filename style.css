@@ -7,9 +7,7 @@ body{
     flex-direction: column;
     justify-content: center;
     max-width: 1100px;
-    flex: 1 2 auto;
-    overflow: hidden;
-    background-color: rgb(230, 247, 196);
+    background-color: white;
 }
 .menue{
     display: flex;
@@ -198,6 +196,10 @@ ul >li{
     transform: perspective(300px) translateZ(30px) translateX(-10px);
     box-shadow: 2px 3px 3px black;
 }
+.content{
+    background-color: bisque;
+
+}
 .prezentare{
     display: flex;
     justify-content: center;
@@ -283,7 +285,7 @@ ul >li{
         display: none;
     }
     .dpc{
-        width: 100%;
+        width: auto;
         scale: 1;
     }
     .logo{
@@ -305,11 +307,7 @@ ul >li{
     }
 }
 .pagini > div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    padding-top: 5px;
+    padding-top: 1px;
     min-width: 300px;
     min-height: 300px;
     max-width: 380px;
@@ -321,7 +319,9 @@ ul >li{
 } 
 h5{
     font-size: 1.5rem;
+    margin: 5px;
 }
+
 .pagini li{
     font-size: 1.2rem;
     color: white;
@@ -365,6 +365,10 @@ h5{
 .content1{
     padding: 5px;
     font-size: 1.2rem;
+    background-clip: polygon(0% 0%, 100% 0%, 100% 40%, 0% 100%);
+    background-color: beige;
+
+
 }
 .content1 >ul{
     margin-left: 0px;
@@ -372,9 +376,13 @@ h5{
 .formular-contact{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(230, 247, 196);
+    background-image: conic-gradient(rgb(252, 89, 44), yellow);
+
 }
 fieldset{
     padding: 5px;
+    margin-left: 5px;
 }
 
 form ul{
@@ -384,7 +392,8 @@ form ul{
     min-width: 390px;
 }
 form{
-    width: fit-content;
+    width: auto;
+    margin-left: 5px;
 }
 form li{
     margin: 5px;
