@@ -321,7 +321,7 @@ ul >li{
 }
 @media(max-width:600px){
     body{
-        zoom: 0.8;
+        zoom: 0.9;
     }
     .pagini{
             grid-template-columns: 1fr;
