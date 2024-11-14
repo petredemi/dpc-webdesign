@@ -173,7 +173,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:flex-end;background-color: rgb(211, 210, 210);
 }
 .introducere > ul{
     background-color:darkcyan;
