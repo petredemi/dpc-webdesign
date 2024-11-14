@@ -194,14 +194,14 @@ ul >li{
     text-wrap: wrap;
 }
 .motto{
-    display: flex;
-    flex-direction: column;
     border: 2px solid black;
     box-shadow: 2px 2px 2px gray;
     max-width: 250px;
     text-wrap: wrap;
     font-size: 1.1rem;
     padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: justify;
     border-radius: 100px 10px / 150px;
     background: linear-gradient(120deg,white, rgb(206, 203, 203), white, rgb(211, 210, 210), white, rgb(205, 203, 203));
@@ -211,15 +211,16 @@ ul >li{
     font-weight: 600;
     background-color: brown;
     padding: 15px;
+    margin-left: 10px;
     margin-bottom: 1px;
     color: aliceblue;
     text-shadow: 2px 2px 2px black;
     transform: perspective(300px) translateZ(30px) translateX(-10px);
     box-shadow: 2px 3px 3px black;
+    border: 1px solid red;
 }
 .content{
     background-color: rgba(245, 233, 218, 0.634);
-
 }
 .prezentare{
     display: flex;
@@ -319,6 +320,9 @@ ul >li{
     }
 }
 @media(max-width:600px){
+    body{
+        zoom: 0.8;
+    }
     .pagini{
             grid-template-columns: 1fr;
     }
