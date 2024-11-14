@@ -478,12 +478,14 @@ fieldset button{
 }
 .contact{
     margin-left: 30px;
+    margin-top: 20px;
     padding: 10px;
     width: fit-content;
     height: fit-content;
     border: 2px solid black;
     border-radius: 10px;
     background-color: aliceblue;
+    box-shadow: 3px 3px 12px black;
 }
 .contact >p{
     font-size: 1.2rem;
