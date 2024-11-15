@@ -93,7 +93,7 @@ h3{
     margin-left: 50px;
     padding: 10px;
     height: fit-content;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
     text-shadow: 2px 2px 2px rgb(4, 4, 4), 0 0 3em rgb(34, 5, 255);
 
 }
@@ -101,6 +101,7 @@ h3{
     transform: translateY(1px);
     display: flex;
     justify-content: left;
+    align-items: center;
     margin-right: 10px;
     margin-left: 10px;
     border: 1px solid black;
@@ -200,11 +201,11 @@ ul >li{
 .motto{
     border: 2px solid black;
     box-shadow: 2px 2px 10px black;
-    border-left: 15px solid darkorange;
+    border-left: 20px solid darkorange;
     max-width: 250px;
     text-wrap: wrap;
     font-size: 1.1rem;
-    padding: 20px;
+    padding: 30px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
@@ -317,7 +318,7 @@ ul >li{
     padding: 1px;
     margin-bottom: 5px;
 }
-@media(max-width:1000px){
+@media(max-width:1100px){
     .pagini{
         grid-template-columns: 1fr 1fr;
     }
@@ -345,11 +346,14 @@ ul >li{
         align-items: center;
         justify-content: center;
     }
+    .logo2{
+        font-size: 2rem;
+    }
     .cube{
         transform: translateY(0px);
     }
     .textstyle{
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
     .descriere{
         transform: translateY(1px);
@@ -360,23 +364,37 @@ ul >li{
 }
 .pagini > div{
     padding-top: 1px;
-    min-width: 300px;
+    min-width: 360px;
     min-height: 250px;
     max-width: 380px;
     max-height: 250px;
     background-position: center;
     background-size: cover;
-    box-shadow: 3px 3px 6px black;
+    box-shadow: 3px 3px 15px black;
     margin: 5px;
 } 
 h5{
     font-size: 1.5rem;
     margin: 5px;
 }
-
-.pagini li{
-    font-size: 1.2rem;
-    color: white;
+.pagini ul{
+    background-color: rgba(0, 0, 0, 0.294);
+    padding: 5px;
+    font-size: 1.1rem;
+    max-width: 300px;
+    height: 150px;
+    color: rgb(253, 253, 250);
+    font-family:cursive;
+    line-height: 1.2;
+    border: 1px solid black;
+    box-shadow: 2px 2px 6px black;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+}
+.ul li{
+    margin-left: 15px;
 }
 #img1{ 
     background-image: url('./poze/rest3.jpg');
