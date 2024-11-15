@@ -107,7 +107,7 @@ h3{
     border: 1px solid black;
     padding: 1px;
     border-radius: 20% 20%;
-    background-color: rgba(243, 164, 239, 0.698);
+    background-color: rgba(253, 255, 125, 0.935);
     margin-top: 1px;
     width: 160px;
     height: 140px;
@@ -313,7 +313,7 @@ ul >li{
 .pagini{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 15px;
     min-width: 380px;
     padding: 1px;
     margin-bottom: 5px;
@@ -364,7 +364,7 @@ ul >li{
 }
 .pagini > div{
     padding-top: 1px;
-    min-width: 360px;
+    min-width: 330px;
     min-height: 250px;
     max-width: 380px;
     max-height: 250px;
