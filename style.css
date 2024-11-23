@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1150px;
+    max-width: 1220px;
     height: auto;
     margin-left: 1px;
 }
@@ -201,26 +201,29 @@ h3{
     border-radius: 0% 0% 0% 100%;
 }
 .introducere > ul{
+    display: flex;
+    flex-direction: column;
     background-color:darkcyan;
     color: aliceblue;
     font-size: 1.4rem;
-    padding: 40px;
-    padding-left: 30px;
+    padding: 20px;
+    padding-left: 20px;
     margin-top: 40px;
     margin-bottom: 0px;
     max-width: fit-content;
-    min-width: 300px;
+    min-width: 100px;
     height: auto;
     border-top: 3px solid black;
     border-right: 3px solid black;
     text-shadow: 1px 1px 1px black;
     box-shadow: 3px -3px 10px black;
+    text-wrap: wrap;
 }
 .introducere li{
-    margin-left: 40px;
+    margin-left: 20px;
+    text-wrap: wrap;
 }
 ul >li{
-    text-wrap: wrap;
     margin-left: 15px;
     margin-right: 20px;
 }
@@ -229,10 +232,11 @@ ul >li{
     box-shadow: 2px 2px 15px black;
     border-left: 10px solid darkorange;
     max-width: 320px;
+    min-width: 280px;
     text-wrap: wrap;
     font-size: 1.1rem;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -250,6 +254,7 @@ ul >li{
     color: aliceblue;
     text-shadow: 2px 2px 2px black;
     box-shadow: 2px 3px 3px black;
+    width: fit-content;
 }
 .content{
     background-color:white;
@@ -295,7 +300,7 @@ ul >li{
     text-align: justify;
     text-wrap: wrap;
     min-width: 120px;
-    margin: 5px;
+    margin: 12px;
     font-size: 1.1rem;
     color: rgb(30, 1, 80);
     font-weight: 500;
@@ -349,7 +354,7 @@ ul >li{
     color: rgb(41, 8, 46);
 }
 .exemplepagini >p{
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 3px;
     max-width: 400px;
     text-align: left;
@@ -358,7 +363,7 @@ ul >li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    min-width: 380px;
+    min-width: 340px;
     padding: 1px;
     margin-bottom: 5px;
 }
@@ -372,22 +377,40 @@ ul >li{
     .text_cube{
         zoom: 0.8;
     }
+    .box1{
+        display: none;
+    }
+    .motto{
+        margin-right: 30px;
+    }
+
 }
 @media(max-width: 780px){
-
     .textstyle{
         margin-left: 50px;
     }
     .box1{
         display: none;
     }
+    .logo{
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .introducere{
+        zoom: 0.8;
+        padding: 20px;
+    }
+    .pagini{
+        zoom: 0.82;
+    }
 }
 @media(max-width:600px){
     body{
-        zoom: 0.90;
+        zoom: 0.84;
     }
     .pagini{
             grid-template-columns: 1fr;
+            zoom: 1;
     }
     .head{
         zoom: 0.75;
@@ -428,8 +451,8 @@ ul >li{
 .pagini > .pagina{
     padding-top: 1px;
     min-height: 250px;
-    max-width: 400px;
-    min-width: 360px;
+    max-width: 420px;
+    min-width: 380px;
     max-height: 250px;
     background-position: center;
     background-size: cover;
@@ -444,7 +467,7 @@ h5{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1.1rem;
-    max-width: 320px;
+    max-width: 360px;
     height: 150px;
     color: rgb(253, 253, 250);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -456,9 +479,6 @@ h5{
     border: 1px solid black;
     box-shadow: 2px 2px 6px black;
     background: rgba(0, 0, 0, 0.258);
-}
-.ul li{
-    margin-left: 15px;
 }
 #img1{ 
     background-image: url('./poze/rest3.jpg');
