@@ -18,6 +18,23 @@ header{
     background-color:rgba(245, 245, 245, 0.259);
     margin-top: 30px;
 }
+#img{
+    border: 3px solid darkcyan;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    border-style: outset;
+    
+}
+.head{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-bottom: 10px;
+}
 h1{
     font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -52,7 +69,7 @@ h3{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
-    align-items:start;
+    align-items:center;
     padding-bottom: 10px;
 }
 .logo-title{
@@ -66,7 +83,7 @@ h3{
     padding: 20px;
     height: fit-content;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgb(4, 4, 4), 0 0 3em rgb(34, 5, 255);
+    text-shadow: 2px 2px 2px rgb(4, 4, 4), 0 0 1em rgb(34, 5, 255);
     box-shadow: 1px 1px 10px black;
 
 }
@@ -180,7 +197,8 @@ h3{
     justify-content: space-between;
     border-top: 1px solid black;
     align-items:flex-end;
-    background:linear-gradient(60deg, rgb(229, 226, 226), white, rgb(226, 224, 224), white, rgb(225, 223, 223));
+    background:linear-gradient(60deg, white, cornflowerblue);
+    border-radius: 0% 0% 0% 100%;
 }
 .introducere > ul{
     background-color:darkcyan;
@@ -220,7 +238,7 @@ ul >li{
     margin-bottom: 20px;
     text-align: justify;
     border-radius: 100px 10px / 150px;
-    background: linear-gradient(120deg,white, rgb(206, 203, 203), white, rgb(211, 210, 210), white, rgb(205, 203, 203));
+    background: linear-gradient(120deg,white, grey, white,grey);
 }
 .box1{
     font-size: 1.3rem;
@@ -351,8 +369,12 @@ ul >li{
     .textstyle{
         margin-right: 80px;
     }
+    .text_cube{
+        zoom: 0.8;
+    }
 }
 @media(max-width: 780px){
+
     .textstyle{
         margin-left: 50px;
     }
@@ -366,6 +388,9 @@ ul >li{
     }
     .pagini{
             grid-template-columns: 1fr;
+    }
+    .head{
+        zoom: 0.75;
     }
     .box1{
         overflow:auto;
@@ -561,7 +586,7 @@ button:hover{
     margin-left: 50px;
 }
 .portret{
-    background-image: url('./poze/portret1.jpg');
+    background-image: url('./poze/portret2.jpg');
     width: 150px;
     height: 150px;
     border: 3px solid darkorange;
