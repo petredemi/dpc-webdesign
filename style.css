@@ -198,7 +198,8 @@ h3{
     border-top: 1px solid black;
     align-items:flex-end;
     background:linear-gradient(60deg, white, cornflowerblue);
-    border-radius: 0% 0% 0% 100%;
+    background: black;
+    border-radius:0% 0% 0% 60%;
 }
 .introducere > ul{
     display: flex;
